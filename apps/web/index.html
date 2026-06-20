@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="format-detection" content="telephone=no" />
+
+    <title>mochi UV - もちもち肌を守る、日焼け止めリマインダー</title>
+    <meta name="description" content="塗った達成感をかわいく可視化する日焼け止めリマインダー。SPF連動の塗り直し通知、冬眠モード、週次・月次グラフでUVケア習慣を続けられる。" />
+    <meta name="keywords" content="日焼け止め,リマインダー,UVカット,スキンケア,PWA,mochi UV" />
+
+    <meta name="theme-color" content="#FFB6C1" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#2A1A1F" media="(prefers-color-scheme: dark)" />
+    <meta name="color-scheme" content="light" />
+    <link rel="canonical" href="https://mochi-uv.pages.dev/" />
+
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
+    <link rel="icon" type="image/svg+xml" href="/icon.svg" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="mask-icon" href="/icon.svg" color="#FFB6C1" />
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="mochi UV" />
+    <meta name="mobile-web-app-capable" content="yes" />
+
+    <link rel="apple-touch-startup-image" href="/splash/iphone-se-portrait.png" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" />
+    <link rel="apple-touch-startup-image" href="/splash/iphone-13-mini-portrait.png" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" />
+    <link rel="apple-touch-startup-image" href="/splash/iphone-13-portrait.png" media="(device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" />
+    <link rel="apple-touch-startup-image" href="/splash/iphone-13-pro-max-portrait.png" media="(device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" />
+    <link rel="apple-touch-startup-image" href="/splash/iphone-15-pro-max-portrait.png" media="(device-width: 430px) and (device-height: 932px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" />
+    <link rel="apple-touch-startup-image" href="/splash/ipad-portrait.png" media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://mochi-uv.pages.dev/" />
+    <meta property="og:title" content="mochi UV - もちもち肌を守る、日焼け止めリマインダー" />
+    <meta property="og:description" content="塗った達成感をかわいく可視化。SPF連動の塗り直し通知、冬眠モード、週次・月次グラフでUVケア習慣が続く。" />
+    <meta property="og:image" content="https://mochi-uv.pages.dev/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:locale" content="ja_JP" />
+    <meta property="og:site_name" content="mochi UV" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="mochi UV - もちもち肌を守る" />
+    <meta name="twitter:description" content="塗った達成感をかわいく可視化する日焼け止めリマインダー" />
+    <meta name="twitter:image" content="https://mochi-uv.pages.dev/og-image.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500;700&family=Noto+Serif+JP:wght@500&display=swap"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <noscript>
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500;700&family=Noto+Serif+JP:wght@500&display=swap"
+      />
+    </noscript>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "MobileApplication",
+      "name": "mochi UV",
+      "operatingSystem": "iOS, Android, Web",
+      "applicationCategory": "HealthApplication",
+      "description": "もちもち肌を守る、日焼け止め塗り直しリマインダーPWA。SPF連動・冬眠モード・週次グラフでUVケア習慣を可視化。",
+      "url": "https://mochi-uv.pages.dev/",
+      "image": "https://mochi-uv.pages.dev/og-image.png",
+      "inLanguage": "ja",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "JPY"
+      }
+    }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>このアプリの利用にはJavaScriptを有効にしてください。</noscript>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

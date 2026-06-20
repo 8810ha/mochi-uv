@@ -1,0 +1,20 @@
+name = "mochi-uv-api"
+main = "src/index.ts"
+compatibility_date = "2026-01-01"
+compatibility_flags = ["nodejs_compat"]
+
+[vars]
+APP_NAME = "mochi-uv"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "mochi-uv"
+database_id = "512c19a0-20d8-4800-b5cf-3885a50adb5c"
+
+[triggers]
+crons = ["*/15 * * * *"]
+
+# Secrets (wrangler secret put で別途設定):
+# - VAPID_PUBLIC_KEY
+# - VAPID_PRIVATE_KEY
+# - VAPID_SUBJECT
