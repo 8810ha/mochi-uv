@@ -11,3 +11,11 @@ dist/
 apps/worker/.vapid.json
 # pCloudビルド残骸
 .pnpm-store/
+# TWA署名鍵・成果物（コミット厳禁。紛失=更新不可）
+android.keystore
+*.keystore
+app-release-*.aab
+app-release-*.apk
+# Bubblewrap生成物
+.gradle/
+twa/
